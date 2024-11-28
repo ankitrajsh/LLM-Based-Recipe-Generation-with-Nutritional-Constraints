@@ -1,0 +1,1 @@
+python3 train_t5.py --gcs_bucket recipe-data-bucket --gcs_train_blob train_only_cal.csv --gcs_test_blob test_only_cal.csv --train_batch_size 6 --test_batch_size 16 --train_num_workers 2 --test_num_workers 2 --mod_save_path ./inp_cal_ingred_cal_1 --epochs 500 --lr 0.00001 --fp16 0 --exp_name inp_cal_ingred_cal
